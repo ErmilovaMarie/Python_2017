@@ -4,7 +4,7 @@ while (True):
     if (quest1 == 'Python' or quest1 == 'python' or quest1 == 'PYTHON'):
         k +=1
         print ('Угадал!')
-    else:
+    elif:
         print ('Не угадал :(')
         
     quest2 = input('Как зовут преподавателя? Ответ: ')
@@ -73,7 +73,7 @@ while (True):
     Again = input("Повторить тест?")
     if(Again == 'да' or Again == 'Да'):
          continue
-    else (Again == 'Нет' or Again == 'нет'):
+    elif (Again == 'Нет' or Again == 'нет'):
         print ('Количество праивльных ответов: ', k)
         print("Спасибо за пройденный тест!")
         break
